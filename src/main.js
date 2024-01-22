@@ -1,7 +1,7 @@
-import Phaser from "phaser";
+import { Game } from "phaser";
 
 import { Boot } from './scenes/Boot';
-import { Game } from './scenes/Game';
+import { Game as Test } from './scenes/Game';
 import { GameOver } from './scenes/GameOver';
 import { MainMenu } from './scenes/MainMenu';
 import { Preloader } from './scenes/Preloader';
@@ -22,9 +22,9 @@ const config = {
         Boot,
         Preloader,
         MainMenu,
-        Game,
+        Test,
         GameOver
     ]
 };
 
-export default new Phaser.Game(config);
+export default new Game(config);
