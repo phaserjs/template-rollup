@@ -1,0 +1,27 @@
+{
+  "name": "template-rollup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "rollup --watch --config rollup/rollup.config.dev.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "phaser": "^3.70.0",
+    "uninstall": "^0.0.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@rollup/plugin-typescript": "^11.1.6",
+    "rollup": "^4.9.5",
+    "rollup-plugin-clear": "^2.0.7",
+    "rollup-plugin-html-entry": "^0.3.0",
+    "rollup-plugin-livereload": "^2.0.5",
+    "rollup-plugin-serve": "^1.1.1"
+  }
+}
