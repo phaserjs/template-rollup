@@ -1,7 +1,7 @@
 import { Game } from "phaser";
 
 import { Boot } from './scenes/Boot';
-import { Game as Test } from './scenes/Game';
+import { Game as MainGame } from './scenes/Game';
 import { GameOver } from './scenes/GameOver';
 import { MainMenu } from './scenes/MainMenu';
 import { Preloader } from './scenes/Preloader';
@@ -22,7 +22,7 @@ const config = {
         Boot,
         Preloader,
         MainMenu,
-        Test,
+        MainGame,
         GameOver
     ]
 };
