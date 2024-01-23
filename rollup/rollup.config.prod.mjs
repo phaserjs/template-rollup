@@ -9,6 +9,20 @@ import glslify from 'rollup-plugin-glslify';
 // Production
 import terser from '@rollup/plugin-terser';
 
+const phasermsg = () => {
+    return {
+        name: 'phasermsg',
+        buildStart() {
+            process.stdout.write(`Building for production...\n`);
+        },
+        buildEnd() {
+            const line = "---------------------------------------------------------";
+            const msg = `💜💜💜 Tell us about your game! - games@phaser.io 💜💜💜`;
+            process.stdout.write(`${line}\n${msg}\n${line}\n`);
+        }
+    }
+}   
+
 export default {
     input: 'src/main.js',
     output: {
@@ -53,6 +67,7 @@ export default {
                 { src: 'index.html', dest: 'dist/' },
                 { src: 'public/*', dest: 'dist/' },
             ]
-        })
+        }),
+        phasermsg()
     ]
 };
