@@ -1,6 +1,6 @@
 {
   "name": "template-rollup",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Phaser 3 template using Rollup.",
   "scripts": {
     "dev": "rollup --watch --config rollup/rollup.config.dev.mjs --no-treeshake",
