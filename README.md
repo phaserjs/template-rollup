@@ -9,7 +9,7 @@ This is a Phaser 3 project template that uses Rollup for bundling. It supports h
 This template has been updated for:
 
 - [Phaser 3.80.1](https://github.com/phaserjs/phaser)
-- [Rollup 4.12.0](https://github.com/rollup/rollup)
+- [Rollup 4.17.2](https://github.com/rollup/rollup)
 
 ![screenshot](screenshot.png)
 
