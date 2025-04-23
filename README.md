@@ -9,7 +9,7 @@ This is a Phaser 3 project template that uses Rollup for bundling. It supports h
 This template has been updated for:
 
 - [Phaser 3.88.2](https://github.com/phaserjs/phaser)
-- [Rollup 4.17.2](https://github.com/rollup/rollup)
+- [Rollup 4.40.0](https://github.com/rollup/rollup)
 
 ![screenshot](screenshot.png)
 
@@ -39,12 +39,15 @@ Once the server is running you can edit any of the files in the `src` folder. Ro
 
 We have provided a default project structure to get you started. This is as follows:
 
-- `index.html` - A basic HTML page to contain the game.
-- `src` - Contains the game source code.
-- `src/main.js` - The main entry point. This contains the game configuration and starts the game.
-- `src/scenes/` - The Phaser Scenes are in this folder.
-- `public/style.css` - Some simple CSS rules to help with page layout.
-- `public/assets` - Contains the static assets used by the game.
+| Path                         | Description                                                |
+|------------------------------|------------------------------------------------------------|
+| `public/index.html`          | A basic HTML page to contain the game.                     |
+| `public/assets`              | Game sprites, audio, etc. Served directly at runtime.      |
+| `public/style.css`           | Global layout styles.                                      |
+| `src/main.js`                | Application bootstrap.                                     |
+| `src/game`                   | Folder containing the game code.                           |
+| `src/game/main.js`           | Game entry point: configures and starts the game.          |
+| `src/game/scenes`            | Folder with all Phaser game scenes.                        |
 
 ## Handling Assets
 
